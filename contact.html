@@ -18,191 +18,90 @@
     <nav class="navbar">
         <ul>
             <!-- <li><a href="home.html" title="Home">Home</a></li> -->
-            <li><a href="account.html" title="Account">Account</a></li>
-            <li><a href=".html" title="Catalog">Catalog</a></li>
-            <li><a href="cart.html" title="Cart">Cart</a></li>
             <!--I need a searchbox thingy here-->
+            <li><a href="contact.html" title="Contact">Contact</a></li>
+            <li><a href="cart.html" title="Cart">Cart</a></li>
+            <li><a href="account.html" title="Account">Account</a></li>
         </ul>
     </nav>
   </header>
 
-  <section class="catalog" id="catalog">
+  <section class="contact" id="contact">
 
-    <!--1-->
     <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
+      <h1>Simple Contact Form System</h1>
+      <div id="add-update-msg">
+        <div class="alert alert-success" role="alert">
+          Contact record successfully added
         </div>
       </div>
-    </div>
-
-    <!--2-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
-        </div>
+      <div class="form" id="add-contact">
+        <form id="add-contact-form">
+          <div class="form-group">
+            <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" class="form-control" required>
+              <small id="contact-email-help" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="contact-msg">Message</label>
+              <textarea id="contact-msg" class="form-control" required>
+              </textarea>
+            </div>
+  
+            <input type="submit" value="Send" class="btn btn-primary" id="contact-submit">
+        </form>
       </div>
     </div>
-
-    <!--3-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
+    
+     end add container
+  
+    <div class="container mt-5">
+      <h2>Table information of Contacts (<span id="total-contacts"></span>)</h2>
+      <table class="table" id="contact-list">
+        <thead>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Message</th>
+          <th colspan="2">Actions</th>
+          
+        </thead>
+        This will be filled with information later
+        <tbody></tbody>
+      </table>
+    </div>
+    
+    <div class="container mt-5" id="update-contact-container"> 
+      <div id="add-update-msg">
+        <div class="alert alert-success" role="alert">
+          Contact record updated sucessfully
         </div>
       </div>
-    </div>
-
-    <!--4-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
-        </div>
+      <h4>Update Contact</h4>
+      <div class="form" id="update-contact">
+        <form id="update-contact-form">
+          <div class="form-group">
+            <label for="update-contact-name">Name</label>
+            <input type="text" id="update-contact-name" class="form-control" required>
+            </div>
+            <div class="form-group">
+            <label for="update-contact-email">Email</label>
+            <input type="email" id="update-contact-email" class="form-control" required>
+             <small id="update-contact-email-help" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+            <label for="update-contact-msg">Message</label>
+            <textarea id="update-contact-msg" class="form-control" required>
+            </textarea>
+            <input type="hidden" id="update-contact-id">
+            </div>
+  
+            <input type="submit" value="Update Contact Details" class="btn btn-warning" id="update-contact-submit">
+          </form>
       </div>
-    </div>
-
-    <!--5-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
-        </div>
-      </div>
-    </div>
-
-    <!--6-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
-        </div>
-      </div>
-    </div>
-
-    <!--7-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
-        </div>
-      </div>
-    </div>
-
-    <!--8-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
-        </div>
-      </div>
-    </div>
-
-    <!--9-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
-        </div>
-      </div>
-    </div>
-
-    <!--10-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
-        </div>
-      </div>
-    </div>
-
-    <!--11-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
-        </div>
-      </div>
-    </div>
-
-    <!--12-->
-    <div class="container">
-      <div class="box">
-        <!--Insert source here-->
-        <img src="">
-        <h4><!--Insert name here--></h4>
-        <h5><!--Insert price here--></h5>
-        <div class="cart-button">
-          <!--Insert function that adds shit to cart-->
-          <button type="button">Add to cart</button>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <section class="about" id="about">
-
-    <div class="about-content">
-      <h2>About</h2>
-      <p><!--Insert about content here--></p>>
     </div>
 
   </section>
@@ -222,81 +121,6 @@
     </div>
     </div> -->
 
-	<!--<div class="container">
-		<h1>Simple Contact Form System</h1>
-		<div id="add-update-msg">
-			<div class="alert alert-success" role="alert">
-				Contact record successfully added
-			</div>
-		</div>
-		<div class="form" id="add-contact">
-			<form id="add-contact-form">
-				<div class="form-group">
-					<label for="contact-name">Name</label>
-            <input type="text" id="contact-name" class="form-control" required>
-          </div>
-          <div class="form-group">
-            <label for="contact-email">Email</label>
-            <input type="email" id="contact-email" class="form-control" required>
-            <small id="contact-email-help" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="contact-msg">Message</label>
-            <textarea id="contact-msg" class="form-control" required>
-            </textarea>
-          </div>
-
-          <input type="submit" value="Send" class="btn btn-primary" id="contact-submit">
-      </form>
-    </div>
-  </div>
-  
-   end add container
-
-  <div class="container mt-5">
-    <h2>Table information of Contacts (<span id="total-contacts"></span>)</h2>
-    <table class="table" id="contact-list">
-      <thead>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Message</th>
-        <th colspan="2">Actions</th>
-        
-      </thead>
-      This will be filled with information later
-      <tbody></tbody>
-    </table>
-  </div>
-  
-  <div class="container mt-5" id="update-contact-container"> 
-    <div id="add-update-msg">
-			<div class="alert alert-success" role="alert">
-				Contact record updated sucessfully
-			</div>
-		</div>
-    <h4>Update Contact</h4>
-    <div class="form" id="update-contact">
-			<form id="update-contact-form">
-				<div class="form-group">
-					<label for="update-contact-name">Name</label>
-          <input type="text" id="update-contact-name" class="form-control" required>
-          </div>
-          <div class="form-group">
-          <label for="update-contact-email">Email</label>
-          <input type="email" id="update-contact-email" class="form-control" required>
-           <small id="update-contact-email-help" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-          <label for="update-contact-msg">Message</label>
-          <textarea id="update-contact-msg" class="form-control" required>
-          </textarea>
-          <input type="hidden" id="update-contact-id">
-          </div>
-
-          <input type="submit" value="Update Contact Details" class="btn btn-warning" id="update-contact-submit">
-        </form>
-    </div>
-  </div>-->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
