@@ -1,3 +1,6 @@
+.body{
+    background-color: blanchedalmond;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -47,3 +50,4 @@ p{
 #submit-button{
     float: right;
 }
+
