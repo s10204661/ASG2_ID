@@ -13,6 +13,7 @@ function logout(){
     localStorage.removeItem('username');
     localStorage.removeItem('email');
     window.location.href = 'index.html'
+    alert("You have logged out")
 }
 
 

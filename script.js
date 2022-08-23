@@ -58,9 +58,11 @@ $("#login-btn").click(function(){
       // console.log(checkuser);
       // console.log(checkpass);
       if (checkuser === username && checkpass === password){
-        $("#response").html("<div class='alert alert-success mt-2'>Log In Successful</div>");
+        $("#response").html("<div class='alert alert-success mt-2'>Log In Successful, Click on Account again!</div>");
         clearField();
         logstatus = true;
+        window.location = 'account.html';
+        alert("You have logged in")
         
       
         // Store data locally , to be accessed using profile
