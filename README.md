@@ -19,7 +19,10 @@ For the process thinking for our website:
 - As a user type, I want to log into the site so I can check my products bought or any bonuses I can enjoy.
 
 ## Features
-<h2 align="center">Home Catalog Page</h2>
+<h3 align="center">Home Catalog Page</h3>
 
 
-<h2 align="center">Account Creation and Log In</h2>
+<h3 align="center">Account Creation and Log In</h3>
+
+
+<h3 align="center">Profile Page </h3>
