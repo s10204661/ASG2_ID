@@ -20,12 +20,16 @@ For the process thinking for our website:
 
 ## Features
 <h3 align="center">Home Catalog Page</h3>
-
+<p align = "center"><img src = https://cdn.discordapp.com/attachments/968803701038940201/1011670264758669522/unknown.png width = "800"> </p>
 
 <h3 align="center">Account Creation and Log In</h3>
-
+<h4 align = "center" Users can create their accounts and sign up and log in></h4>
+<p align = "center"><img src = https://cdn.discordapp.com/attachments/968803701038940201/1011671564007251978/unknown.png width = "300"></p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/968803701038940201/1011671563629756426/unknown.png" width="300"></p>
 
 <h3 align="center">Profile Page </h3>
-
+<p align = "center"><img src = https://cdn.discordapp.com/attachments/968803701038940201/1011670579088212078/unknown.png width="1000"></p>
 
 <h3 align="center">Shop Page and Cart</h3>
+<p align = "center"><img src = https://cdn.discordapp.com/attachments/968803701038940201/1011673363678236754/unknown.png width="1000"></p>
+
