@@ -47,11 +47,3 @@ p{
 #submit-button{
     float: right;
 }
-
-.container{
-    max-width: 50px;
-    margin:10px;
-    padding-right: 25px;
-    padding-left: 25px;
-
-}
