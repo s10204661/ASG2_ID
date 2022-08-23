@@ -1,4 +1,6 @@
-
+body{
+    background-color: blanchedalmond;
+}
 /*Navigation bar*/
 .navbar{
     display: flex;
