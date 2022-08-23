@@ -1,9 +1,10 @@
 function checkuserlogin(){
     var currentUser = localStorage.getItem('username');
-    if(currentUser == null){
+    if(currentUser ==null){
       window.location.href = 'login.html';
     }
     else{
+      console.log(currentUser)
       window.location.href = 'account.html';
     }
   }
