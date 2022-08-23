@@ -1,6 +1,4 @@
-body{
-    background-color: blanchedalmond;
-}
+
 /*Navigation bar*/
 .navbar{
     display: flex;
@@ -9,6 +7,7 @@ body{
     list-style: none;
     overflow: hidden;
     border: 3px solid #73AD21;
+    background-color: aqua;
 }
 
 nav{
@@ -34,6 +33,10 @@ a{
 a:hover{
     background-color: #ddd;
     color: black;
+}
+
+p{
+    color: #555
 }
 
 .search-bar{
