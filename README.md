@@ -26,3 +26,6 @@ For the process thinking for our website:
 
 
 <h3 align="center">Profile Page </h3>
+
+
+<h3 align="center">Shop Page and Cart</h3>
