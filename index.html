@@ -22,45 +22,38 @@
 
 	<!----header start--->
 	<header>
+		<!--Navigation bar(top of screen)-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#">Bags</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon"></span>
 			</button>
-		  
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			  <ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-				  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				  <a class="nav-link" href="index.html">Home </a>
 				</li>
 				<li class="nav-item">
 				  <a class="nav-link" href="account.html">Account</a>
 				</li>
-				<li class="nav-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Dropdown
-				  </a>
-				  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">Action</a>
-					<a class="dropdown-item" href="#">Another action</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Something else here</a>
-				  </div>
+				<li class="nav-item">
+				  <a class="nav-link" href="cart.html">Cart</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link disabled" href="cart.html">Cart</a>
+					<a class="nav-link" href="contact.html">Contact Us</a>
 				</li>
 			  </ul>
-			  <form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			  </form>
+			  <!--Search bar-->
+              <form class="search-bar">
+                <input type="search" placeholder="Type here..." aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
 			</div>
 		  </nav>
 	</header>
 	
 
-	<!----shop start--->
+	<!----catalog--->
 	<div class="container shop-container">
 		<div class="row">
 		  <div class="col-sm-12">
@@ -69,6 +62,7 @@
 			</div>
 		  </div>
 		</div>
+		<!--Products-->
 		<div class="row">
 			<!-- 1 -->
 			<div class="col-sm-6 col-lg-4">
@@ -78,163 +72,174 @@
 				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
+				  			<h3 class="text-capitalize product-title">Guppy bag</h3>
+				  			<p class="mb-0 price">$4.99</p>
 				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 2 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
 			  		<div class="product-list">
 						<div class="product-image position-relative">
-				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
+				  			<img src="img/main2.jpg" class="img-fluid product-img" alt="Bag 2">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
-				  			<button class="btn btn-dark add-cart mt-3" type="button">Add To Cart</button>
+				  			<h3 class="text-capitalize product-title">Yellow Grid bag with green leaves pattern</h3>
+				  			<p class="mb-0 price">$8.99</p>
+				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 3 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
 			  		<div class="product-list">
 						<div class="product-image position-relative">
-				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
+				  			<img src="img/main3.jpg" class="img-fluid product-img" alt="Bag 3">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
-				  			<button class="btn btn-dark add-cart mt-3" type="button">Add To Cart</button>
+				  			<h3 class="text-capitalize product-title">Pink bag with White lynx pattern</h3>
+				  			<p class="mb-0 price">$9.99</p>
+				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 4 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
 			  		<div class="product-list">
 						<div class="product-image position-relative">
-				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
+				  			<img src="img/main4.jpg" class="img-fluid product-img" alt="Bag 4">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
-				  			<button class="btn btn-dark add-cart mt-3" type="button">Add To Cart</button>
+				  			<h3 class="text-capitalize product-title">Orange abstract design bag</h3>
+				  			<p class="mb-0 price">$6.99</p>
+				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 5 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
 			  		<div class="product-list">
 						<div class="product-image position-relative">
-				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
+				  			<img src="img/main5.jpg" class="img-fluid product-img" alt="Bag 5">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
-				  			<button class="btn btn-dark add-cart mt-3" type="button">Add To Cart</button>
+				  			<h3 class="text-capitalize product-title">Black polka dots bag</h3>
+				  			<p class="mb-0 price">$8.99</p>
+				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 6 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
 			  		<div class="product-list">
 						<div class="product-image position-relative">
-				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
+				  			<img src="img/main6.jpg" class="img-fluid product-img" alt="Bag 6">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
-				  			<button class="btn btn-dark add-cart mt-3" type="button">Add To Cart</button>
+				  			<h3 class="text-capitalize product-title">Chilling with the tiger bag</h3>
+				  			<p class="mb-0 price">$9.99</p>
+				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 7 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
 			  		<div class="product-list">
 						<div class="product-image position-relative">
-				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
+				  			<img src="img/main7.jpg" class="img-fluid product-img" alt="Bag 7">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
-				  			<button class="btn btn-dark add-cart mt-3" type="button">Add To Cart</button>
+				  			<h3 class="text-capitalize product-title">Lemon bag</h3>
+				  			<p class="mb-0 price">$6.99</p>
+				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 8 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
 			  		<div class="product-list">
 						<div class="product-image position-relative">
-				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
+				  			<img src="img/main8.jpg" class="img-fluid product-img" alt="Bag 8">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
-				  			<button class="btn btn-dark add-cart mt-3" type="button">Add To Cart</button>
+				  			<h3 class="text-capitalize product-title">Bagnana</h3>
+				  			<p class="mb-0 price">$10.99</p>
+				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 9 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
 			  		<div class="product-list">
 						<div class="product-image position-relative">
-				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
+				  			<img src="img/main9.jpg" class="img-fluid product-img" alt="Bag 9">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
-				  			<button class="btn btn-dark add-cart mt-3" type="button">Add To Cart</button>
+				  			<h3 class="text-capitalize product-title">Assorted Art bag</h3>
+				  			<p class="mb-0 price">$5.99</p>
+				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 10 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
 			  		<div class="product-list">
 						<div class="product-image position-relative">
-				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
+				  			<img src="img/main10.jpg" class="img-fluid product-img" alt="Bag 10">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
-				  			<button class="btn btn-dark add-cart mt-3" type="button">Add To Cart</button>
+				  			<h3 class="text-capitalize product-title">OK I bag</h3>
+				  			<p class="mb-0 price">$7.99</p>
+				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 11 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
 			  		<div class="product-list">
 						<div class="product-image position-relative">
-				  			<img src="img/main1.jpg" class="img-fluid product-img" alt="Bag 1">
+				  			<img src="img/main11.jpg" class="img-fluid product-img" alt="Bag 11">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 1</h3>
-				  			<p class="mb-0 price">$16</p>
-				  			<button class="btn btn-dark add-cart mt-3" type="button">Add To Cart</button>
+				  			<h3 class="text-capitalize product-title">Black cactus bag</h3>
+				  			<p class="mb-0 price">$6.99</p>
+				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
 				</div>
 			</div>
+
 			<!-- 12 -->
 			<div class="col-sm-6 col-lg-4">
 				<div class="d-block text-center mb-4">
@@ -243,8 +248,8 @@
 				  			<img src="img/main12.jpg" class="img-fluid product-img" alt="Bag 12">
 						</div>
 						<div class="product-name pt-3">
-				  			<h3 class="text-capitalize product-title">Bag 12</h3>
-				  			<p class="mb-0 price">$12</p>
+				  			<h3 class="text-capitalize product-title">Blue petal bag</h3>
+				  			<p class="mb-0 price">$5.99</p>
 				  			<button class="btn btn-dark add-cart mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Add To Cart</button>
 						</div>
 			  		</div>
